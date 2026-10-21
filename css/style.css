@@ -79,6 +79,7 @@ h1 {
     text-decoration: none;
 
     background-color: #333333;
+    transition: background-color 1s;
 }
 
 .links a:hover,
@@ -89,7 +90,7 @@ h1 {
 
 footer {
     grid-row: 3;
-    align-self: end;
+    align-self: flex-end;
     padding: 5px;
 }
 
@@ -99,4 +100,10 @@ footer {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (width >= 640px) {
+    main {
+        padding: 40px;
+    }
 }

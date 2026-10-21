@@ -20,9 +20,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### The challenge
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+The links in the card are interactive. Their text changes from white to dark gray, and their background changes from gray to green on hover or when focused using keyboard navigation, providing visual feedback for both mouse and keyboard users.
 
 ### Screenshot
 
@@ -31,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [Social links profile](https://miliniul.github.io/social-links-profile/)
 
 ## My process
 
@@ -39,13 +37,17 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- CSS Grid
 - Mobile-first workflow
 
 
 ### What I learned
 
+I practiced using CSS Grid to organize the page layout. With `grid-template-rows: 1fr auto 1fr`, I placed the profile card in the middle row and the footer at the bottom of the page. This helped me separate the overall page layout from the layout inside the card.
 
+I also learned how to style links for both mouse and keyboard users. By combining `:hover` and `:focus-visible`, I made the links change their text and background colors when hovered over or focused using keyboard navigation.
+
+Finally, I used `transition: background-color 1s` to make the background color change smoothly instead of instantly. This gave me practice applying a transition to a specific CSS property.
 
 ### Continued development
 
